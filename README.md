@@ -23,7 +23,7 @@ premake5 gmake2  ---LINUX
 Premake5 VS2022  ---Windows.
 
 
-To remove previously generated make files and solutions , run the following comamnd:
+To remove previously generated make files and solutions , run the following command:
 
 call premake5.exe clean
 
