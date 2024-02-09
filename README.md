@@ -8,14 +8,18 @@ but without any answer.
 
 ### Project structure 
 1-There is a workspace lua fil that will create the solution and is the head of the whole solution/make files 
+
 2-Application which generates an executable file. That project is depending on a library (PPCL) which depends on pathLib'
+
 3-Pathlib is the library that is simulating vendor library. It will be incldued after compilation in the PPCL.lib or libPPCL.a
 
 
 ## Compiling the project: 
 
 Create the project by running the following command : 
+
 premake5 gmake2  ---LINUX
+
 Premake5 VS2022  ---Windows.
 
 
@@ -25,7 +29,7 @@ call premake5.exe clean
 
 
 Feel free to contribute and suggest changes to this project. I hope you find it useful. 
-Notes:
+### Notes:
 There are certan formats that you MUST keep to le this project work. 
 For example when I used filter 
 filter "system::Unix"
