@@ -18,9 +18,9 @@ but without any answer.
 
 Create the project by running the following command : 
 
-premake5 gmake2  ---LINUX
-
-Premake5 VS2022  ---Windows.
+    premake5 gmake2  ---LINUX
+    
+    Premake5 VS2022  ---Windows.
 
 
 To remove previously generated make files and solutions , run the following command:
@@ -35,9 +35,9 @@ There are certan formats that you MUST keep to allow this project work.
 For example when I used this filter:
 
 
-filter "system::Unix"
+    filter "system::Unix"
 
-    system "linux" 
+        system "linux" 
     
 This causes a problem. The generated make file get a configuration of "debug/" folder without your intention. 
 Remember also, lua is not pythont language. Just having some spaces (indentation) doesn't mean that the filter will not be applied for that line or section. 
