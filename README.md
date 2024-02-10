@@ -32,8 +32,11 @@ Feel free to contribute and suggest changes to this project. I hope you find it 
 
 ### Notes:
 There are certan formats that you MUST keep to allow this project work. 
-For example when I used filter 
+For example when I used this filter:
+
+
 filter "system::Unix"
+
     system "linux" 
     
 This causes a problem. The generated make file get a configuration of "debug/" folder without your intention. 
