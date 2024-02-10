@@ -25,7 +25,7 @@ Create the project by running the following command :
 
 To remove previously generated make files and solutions , run the following command:
 
-call premake5.exe clean
+    call premake5.exe clean
 
 
 Feel free to contribute and suggest changes to this project. I hope you find it useful. 
