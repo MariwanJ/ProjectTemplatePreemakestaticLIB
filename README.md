@@ -42,4 +42,30 @@ For example when I used this filter:
 This causes a problem. The generated make file get a configuration of "debug/" folder without your intention. 
 Remember also, lua is not pythont language. Just having some spaces (indentation) doesn't mean that the filter will not be applied for that line or section. 
 Keep those lines before the filters. There is a note inside one of the lua files about that. 
- 
+
+
+## Project Structure : 
+
+    .
+    ├── PPCL
+    │   ├── premake5.lua
+    │   ├── src
+    │   │   ├── ppcl_lib.cpp
+    │   │   └── ppcl_lib.h
+    │   └── vendor
+    │       └── pathLib
+    │           ├── premake5.lua
+    │           └── src
+    │               ├── fr_path.cpp
+    │               └── fr_path.h
+    ├── TemplatePreemakeStaticLIB
+    │   ├── premake5.lua
+    │   └── src
+    │       ├── Application.cpp
+    │       └── Application.h
+    ├── Resources
+    ├── premake5.lua
+    ├── BuildProjects.bat
+    └── README.md
+
+Mariwan Jalal 
